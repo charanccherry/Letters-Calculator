@@ -1,0 +1,54 @@
+.letter-calc-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #7215d8, #9544ed);
+  height: 100vh;
+  padding: 150px;
+}
+.counter-part {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.calc-head {
+  color: #f6eefd;
+  font-family: 'Sans Serif';
+  font-size: 50px;
+  font-weight: bold;
+}
+.calc-title {
+  color: #f6eefd;
+  font-family: 'Sans Serif';
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.phrase-input {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #f6eefd;
+  padding: 5px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  width: 500px;
+  color: #f6eefd;
+  font-family: 'Sans Serif';
+  outline: none;
+  font-size: 16px;
+}
+.calc-button {
+  text-align: center;
+  background-color: #f6eefd;
+  font-family: 'Sans Serif';
+  font-size: 16px;
+  padding: 10px;
+  color: #7215d8;
+  border-style: none;
+  border-radius: 10px;
+  width: 180px;
+  outline: none;
+}
+.calc-image {
+  width: 50%;
+}
